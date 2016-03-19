@@ -89,4 +89,4 @@ class Vector {
 };
 const Vector null(0,0,0);
 
-#endif VECTOR_HPP_
+#endif /*VECTOR_HPP_*/

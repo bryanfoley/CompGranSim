@@ -44,7 +44,8 @@ class disk{
 
 	public:
 		//Constructor
-		disk():rtd0(null),rtd1(null),rtd2(null),rtd3(null),rtd4(null){}
+		disk():rtd0(null),rtd1(null),rtd2(null),rtd3(null),rtd4(null),//
+		_r(1),_m(1),_J(1),_type(1),_z(1),_mu(1),_gamma(1),_Y(1),_A(1){}
 
 		//Access private members
 		//Position vector
@@ -79,6 +80,9 @@ class disk{
 		//Mass
 		double & m() {return _m;}
 		double m() const {return _m;}
+		//Momnet of inertia
+		double & j() {return _J;}
+		double j() const {return _J;}
 		//Particle type
 		int & type() {return _type;}
 		int type() const {return _type;}
@@ -116,4 +120,4 @@ class disk{
 		Vector _force;	//Force vector, has x, y and angular components
 };
 
-#endif DISK_HPP_
+#endif /*DISK_HPP_*/
