@@ -5,6 +5,7 @@
  *      Author: bryan
  */
 
+#include "disk.hpp"
 
 
 
